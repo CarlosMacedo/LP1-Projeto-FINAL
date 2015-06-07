@@ -1,0 +1,6 @@
+tela = pygame.display.set_mode(*size) #não pega
+tela = pygame.display.set_mode(size)  #pega
+soma( *tupla )                        #pega
+soma(  tupla )                        #não pega
+
+porque velocidade não pega 0.5
